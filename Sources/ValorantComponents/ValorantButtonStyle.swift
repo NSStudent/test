@@ -12,7 +12,7 @@ public struct RounderButtonStyle: ButtonStyle {
         configuration.label
             .foregroundColor(.white)
             .padding()
-            .background(Color.VABackground)
+            .background(Color.VAAuxiliar)
             
     }
     
