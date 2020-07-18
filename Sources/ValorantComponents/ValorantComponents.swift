@@ -6,6 +6,6 @@ struct ValorantComponents {
 
 extension Color {
     public static var VABackground: Color {
-        Color(red: 210 / 255, green: 39 / 255, blue: 18 / 255)
+        Color(red: 235 / 255, green: 86 / 255, blue: 90 / 255)
     }
 }
