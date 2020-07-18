@@ -13,7 +13,7 @@ public struct RounderButtonStyle: ButtonStyle {
             .foregroundColor(.white)
             .padding()
             .background(Color.VAAuxiliar)
-            
+            .cornerRadius(8)
     }
     
     public init() {
