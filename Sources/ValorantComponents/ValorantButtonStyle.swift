@@ -15,4 +15,6 @@ public struct RounderButtonStyle: ButtonStyle {
             .background(Color.VABackground)
             
     }
+    
+    public init() {}
 }
