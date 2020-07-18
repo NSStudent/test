@@ -16,5 +16,6 @@ public struct RounderButtonStyle: ButtonStyle {
             
     }
     
-    public init() {}
+    public init() {
+    }
 }
