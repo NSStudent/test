@@ -8,12 +8,20 @@
 import SwiftUI
 
 public struct RounderButtonStyle: ButtonStyle {
+    
+    private let foreground = Color.VALight
+    private let backgroudColor = Color.VAAuxiliar
+    private let height: CGFloat = 60
+    
     public func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .foregroundColor(.white)
+            .foregroundColor(foreground)
             .padding()
-            .background(Color.VAAuxiliar)
-            .cornerRadius(8)
+            .frame(height: height)
+            .background(
+                Capsule()
+                    .fill(backgroudColor)
+            )
     }
     
     public init() {
